@@ -42,19 +42,34 @@
   	font-size: 1.5em;
   }
 
-  /* footer */
+/* Footer */
+
   footer {
       position: fixed;
       height: 45px;
       bottom: 0;
       width: 100%;
       text-align: center;
-      background-color: #A59ECA;
+      background-color: #9386c9;
       color: white;
   }
+
   .copyright {
     font-size: 1rem;
   }
-  p {
+
+  .end-footer,
+  .end-footer a,
+  .end-footer a:hover {
     font-size: 0.8rem;
+    color: #bbb;
+  }
+
+  .end-footer a,
+  .end-footer a:hover{
+    text-decoration: underline;
+  }
+
+  .end-footer a:hover {
+    color: #000;
   }
