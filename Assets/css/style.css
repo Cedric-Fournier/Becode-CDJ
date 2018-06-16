@@ -18,6 +18,17 @@
       color: #fff !important;
     }
 
+
+
+  .btn-default {
+    color: white;
+    background: #9386c9;
+  }
+  .btn-default:hover {
+    color: white;
+    background: green;
+  }
+
 /* Banner */
 
   #banner {
@@ -29,6 +40,11 @@
   	position: relative;
   	padding: 8em 0;
   	margin: 4em 0 0 0;
+  }
+
+  #banner .btn-default {
+    color: white;
+    background: red;
   }
 
   #banner header {
