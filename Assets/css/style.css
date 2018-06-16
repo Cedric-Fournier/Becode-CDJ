@@ -1,4 +1,4 @@
-#logo {
+  #logo {
 
   }
 
@@ -6,6 +6,17 @@
     background-color: #9386c9;
   }
 
+  .nav-link:hover {
+    color: #fff !important;
+  }
+
+  .activ a {
+    color: #fff !important;
+  }
+
+  .nav-link:focus {
+      color: #fff !important;
+    }
 
 /* Banner */
 
@@ -45,7 +56,7 @@
 /* Footer */
 
   footer {
-      position: fixed;
+      position: absolute;
       height: 45px;
       bottom: 0;
       width: 100%;
