@@ -20,13 +20,17 @@
 
 
 
-  .btn-default {
+  .btn-custom {
     color: white;
-    background: #9386c9;
+    background: #ad0023/*#9386c9*/;
   }
-  .btn-default:hover {
+  .btn-custom:hover {
     color: white;
-    background: green;
+    background: #00ad68;
+  }
+
+  .modal-title {
+    text-align: left;
   }
 
 /* Banner */

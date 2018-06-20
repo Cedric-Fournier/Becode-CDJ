@@ -58,8 +58,27 @@
           <header>
             <h2>Milocs</h2>
             <p>Mission locale de Schaerbeek</p>
-            <button type="button" class="btn btn-default">Chercheur d'emploi</button><!-- reflechir -->
-            <button type="button" class="btn btn-default">Employeur</button><!-- reflechir -->
+            <!--modal actu -->
+            <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#myModal">Actualités</button><!-- reflechir -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Actualités</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                    <p>Some text in the modal.</p>
+                    <p>Some text in the modal.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </header>
         </section>
 
