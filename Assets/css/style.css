@@ -63,14 +63,20 @@
   	margin: 0 0 0.65em 0;
   }
 
-  #banner header p {
+  #banner header h3 {
   	color: #9386c9;
-  	padding: 0;
+  	padding-bottom: 0.5em;
   	font-style: normal;
   	margin: 0;
   	font-size: 1.5em;
   }
-  
+  #banner header p {
+    /*color: #9386c9;*/
+    padding: 0.5em 0;
+    font-style: normal;
+    margin: 0;
+    font-size: 1em;
+  }
 
 /* Footer */
 
