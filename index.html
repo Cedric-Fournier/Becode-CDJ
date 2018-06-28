@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Milocs - Mission locale de Schaerbeek</title>
+    <!--Favicon -->
+    <link rel="icon" type="image/png" href="Assets/images/favicon.jpg" />
+
+
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- HEADER/MENU -->
+
+        <section id="menu">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-dark bgnav">
+            <img src="Assets/images/logo.jpg" width="40" height="40" alt="Milocs Logo" class="d-inline-block align-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item activ">
+                <a class="nav-link" href="#"><i class="fas fa-home"></i> Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#chercheur"><i class="fas fa-search"></i> Chercheur d'emploi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#employeur"><i class="fas fa-briefcase"></i> Employeur</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#objectifs"><i class="fas fa-bullseye"></i> Objectifs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#quisommesnous"><i class="fas fa-question"></i> Qui sommes-nous</a>
+                </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link" href="#actualites"><i class="fas fa-comment"></i> Actualités</a>
+                </li>-->
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Recherche</button>
+              </form> -->
+            </div>
+          </nav>
+        </section>
+
+      <!-- HEADER/MENU -->
+      <!-- BANNER -->
+
+        <section id="banner">
+          <header>
+            <h2>Milocs</h2>
+            <h3>Mission locale de Schaerbeek</h3>
+            <!--modal actu -->
+            <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#myModal">Actualités</button><!-- reflechir -->
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!--<h4 class="modal-title">Actualités</h4>-->
+                  </div>
+                  <div class="modal-body">
+                    <p><strong>Séance d'information : formation d'ouvrier polyvalent</strong></p>
+                    <a href="https://www.facebook.com/events/617791668606869/" target="_blank">
+                      <img border="0" alt="formation ouvrier polyvalent" src="Assets/images/rsz_actu.jpg" ><!--width="100" height="100">-->
+                    </a>
+                    <p class="actu" >Vous êtes BRICOLEUR.EUSE et voulez en faire votre métier ?
+                    FORMEZ-VOUS ! :) </p>
+                    <p class="actu">Participez à une de nos séances d'information pour venir poser vos questions et discuter avec nos conseillers en formation ! </p>
+                    <p class="actu">Pour entrer en formation, vous devez être inscrit chez Actiris et avoir un niveau d'étude inférieur au certificat d'études secondaire supérieur (CESS)</p>
+                    <p class="actu">N'hésitez pas à nous contacter pour plus d'informations si nécessaire au 02/247.77.24 - 02/240.67.61</p>
+                    <p class="actu"><a href="https://www.facebook.com/pg/milocs.be/events/?ref=page_internal" target="_blank">Autres actualités</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-custom" data-dismiss="modal">Fermer</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </header>
+        </section>
+
+      <!-- BANNER -->
+      <!-- MAIN -->
+
+      <section id="main">
+        <div class="row">
+          <div class="col-sm-12">
+
+            <!-- CHERCHEUR D'EMPLOI -->
+
+              <section id="chercheur">
+                <p>&nbsp;</p>
+                <h2>Chercheur d'emploi</h2>
+
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Une formation, un emploi, ou simplement des conseils...
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Vous désirez être soutenu dans le choix d’une activité professionnelle, dans vos démarches pour trouver une formation, un emploi? Nos conseillers sont à votre écoute, vous pouvez les rencontrer lors des permanences. Nos services s'adressent essentiellement à des personnes peu qualifiées, si ce n'est pas votre cas, référez vous à notre page lien.
+                        Si certaines demandes entraînent une réponse immédiate, d’autres nécessitent un suivi plus approfondi. Dans ce cas, un premier contact avec un membre de notre équipe d’accueil permettra d’établir un parcours qui vous convient parmi les activités que nous organisons. Celles-ci se répartissent en différentes catégories en fonction des besoins: l’espace orientation professionnelle, l’espace formation et l’espace emploi. Nous pouvons également vous conseiller si vous souhaitez créer votre propre activité, ou vous guider vers des associations spécialisées.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Espace orientation professionnelle
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Choisir un métier ou changer de profession sont des décisions importantes qui peuvent se révéler difficiles à prendre. La Mission locale organise des stages d’orientation et de détermination professionnelle pour vous permettre de clarifier vos objectifs professionnels, développer votre motivation et renforcer votre confiance. Ces huit semaines de travail en groupe vous aident, non seulement, à définir un projet professionnel, mais également, à déterminer les étapes pour le réaliser. L’atelier se conclut par un stage d’observation active dans le monde du travail. De cette façon, vous pouvez confronter l’idée du métier que vous aimeriez exercer à la réalité du terrain.
+                        Les dates des prochains stages d’orientation professionnelle sont signalées dans notre rubrique actualité. Pour vous inscrire ou obtenir des informations complémentaires venez aux permanences.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Espace formation
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Vous avez la volonté d’apprendre et éprouvez le besoin d’être aidé dans vos démarches pour trouver et commencer une formation. La Mission locale vous apporte ce soutien. Nos conseillers vous reçoivent en entretien individuel. Ils disposent d’une documentation abondante sur les formations existantes et vous aiderons à déterminer celle qui vous convient. De plus, ils vous épaulerons durant les différentes étapes de l’inscription.
+                        Pour bénéficier d'un suivi, un premier entretien à l’accueil est nécessaire, celui-ci ouvre ses portes pendant les permanences.
+                        Pour certaines formations, la Mission locale assure le recrutement des candidats, ainsi que la préparation et le suivi des stagiaires. Dans ce cas, des séances d’information sont organisées, consultez notre actualité.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Espace emploi
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Préciser ses objectifs, rédiger un cv et une lettre de motivation de qualité, se présenter avec confiance à un entretien d’embauche, sont quelques-unes des clefs que la Mission locale vous aide à acquérir pour rendre votre technique de recherche d’emploi plus efficace. Cet accompagnement peut consister en entretien individuel ou se faire sur base de travail en groupe, comme c’est le cas pour le point job 500 réservé aux "Articles 60" inscrits au Cpas.
+                        Si vous désirez participer à ces activités, obtenir des renseignements complémentaires, venez rencontrer nos conseillers lors des permanences.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Créer son activité
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Vous voulez créer votre propre emploi, mais ne savez pas comment concrétiser votre projet. S’il s’agit d’une asbl, la Mission locale peut vous apporter ses conseils, sinon, elle vous orientera vers d’autres associations comme le Guichet d'économie locale de Schaerbeek et iles asbl. La première structure a pour vocation de favoriser la création d’activités commerciales ou de production à Schaerbeek ainsi que de supporter ceux et celles qui veulent s’installer comme indépendant(es). Vous y trouverez une aide pour la recherche de financements, la constitution d’un business plan, ainsi qu’un soutien durant vos premières années de fonctionnement. La seconde, iles, privilégie la création d’entreprises socialement responsables, reposant sur des valeurs de citoyenneté. Son équipe de professionnels vous offre un accompagnement administratif et logistique pour vous permettre de transformer votre idée en entreprise cohérente et concurrentielle.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            <!-- CHERCHEUR D'EMPLOI -->
+            <!-- EMPLOYEUR -->
+
+              <section id="employeur">
+                <p>&nbsp;</p>
+                <h2>Employeur</h2>
+                <div class="accordion" id="accordionExample2">
+                  <div class="card">
+                    <div class="card-header" id="headingEmployeurOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEmployeurOne" aria-expanded="true" aria-controls="collapseEmployeurOne">
+                          A la recherche de personnel, de travailleurs qualifiés
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapseEmployeurOne" class="collapse" aria-labelledby="headingEmployeurOne" data-parent="#accordionExample2">
+                      <div class="card-body">
+                        La Mission locale répond aux besoins des employeurs en participant à la diffusion des offres d’emploi. Nous apportons aussi une contribution importante aux secteurs qui souffrent d’une pénurie de personnel qualifié en initiant l’organisation de formations.
+                        Afin de coordonner, au niveau de la région bruxelloise, la récolte des offres d’emploi ainsi que des données nécessaires à la mise en place de formations ciblées, Actiris, les Missions locales et leur homologue néerlandophone, Tracé Brussel vzw, ont créé un service commun de prospecteurs. Cette structure compléte un autre outil, le réseau des plates-formes locales pour l’emploi, un système informatisé qui améliore la diffusion des informations et permet une communication efficace.
+                        Un site web mis en place par le gouvernement fédéral regroupe l'ensemble des mesures en faveur de l'emploi et les avantages financiers qui en découlent.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingEmployeurTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEmployeurTwo" aria-expanded="false" aria-controls="collapseEmployeurTwo">
+                          La diffusion des offres d'emploi
+                        </button>
+                      </h5>
+                    </div>
+                      <!--</div>
+                    </div>
+                  </div>
+                </div>-->
+                    <div id="collapseEmployeurTwo" class="collapse" aria-labelledby="headingEmployeurTwo" data-parent="#accordionExample2">
+                      <div class="card-body">
+                        En contact avec de nombreux demandeurs d’emploi, la Mission locale peut constituer un moyen efficace de diffuser vos offres. Vous pouvez faire participer vos offres à ce dispositif en les communiquant au service emploi de la Mission locale par courriel à l’adresse suivante: secretariat@milocs.be avec pour mention "Offre d'emploi". Si vous souhaitez obtenir des renseignements complémentaires, n’hésitez pas à nous téléphoner au 02/247.77.20.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingEmployeurThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEmployeurThree" aria-expanded="false" aria-controls="collapseEmployeurThree">
+                          L'organisation de formations
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseEmployeurThree" class="collapse" aria-labelledby="headingEmployeurThree" data-parent="#accordionExample2">
+                      <div class="card-body">
+                        Pour certains métiers, trouver des personnes qui possèdent les qualifications requises se révèle difficile. Dans de nombreux cas, ce n'est pas la volonté du public pour travailler dans le secteur qui pose problème, mais l'absence, ou le manque, de formations y préparant. Si vous vous trouvez dans cette situation, sachez que la Mission locale peut apporter une solution. Nous organisons des formations avec la participation de centres partenaires: une formation "Poseur(euse) de toitures végétales" a démarré en septembre de cette année 2012 et une autre "Assistant(e) administratif et d'accueil en milieu médical" devrait commencer en mars 2013*. Si vous désirez obtenir de plus amples informations sur nos initiatives en matière de formations, nous vous invitons à contacter Nicolas Dumortier ou Neriman Tac au 02/247.77.27.
+
+                        *sous réserve de l'accord de Bruxelles Formation.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            <!-- EMPLOYEUR -->
+            <!-- OBJECTIFS -->
+
+
+                <section id="objectifs">
+                  <p>&nbsp;</p>
+                  <h2>Objectifs</h2>
+                  <div class="accordion" id="accordionExample3">
+                    <div class="card">
+                      <div class="card-header" id="headingObjectifsOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseObjectifsOne" aria-expanded="true" aria-controls="collapseObjectifsOne">
+                            Du projet au concret
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="collapseObjectifsOne" class="collapse" aria-labelledby="headingObjectifsOne" data-parent="#accordionExample3">
+                        <div class="card-body">
+                          Parce que trouver un emploi stable, conforme à ses motivations, c’est aussi trouver sa place dans la société, la Mission locale de Schaerbeek s’attache à favoriser l’accès à la formation et au marché de l’emploi. L’insertion sociale et l’intégration professionnelle constituent notre principe fondateur, écouter, informer et conseiller un des modes d’action pour y parvenir.
+                          Les acteurs de l’insertion socioprofessionnelle partagent un but commun mais interviennent dans des domaines variés, il importe donc de se concerter pour garantir une cohérence efficace entre les différents services proposés. Parmi les axes d’intervention que nous privilégions, agir ensemble occupe une place essentielle. Par ailleurs, nous veillons à nous tenir à l’écoute des demandeurs d’emploi et des employeurs.
+                          Au cours de son histoire, le rôle de la Mission locale s’est élargi. Encourager le développement local est devenu un de nos objectifs fondamentaux et nous participons à des initiatives associatives ou publiques en matière de revitalisation économique, sociale et urbaine du quartier.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingObjectifsTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseObjectifsTwo" aria-expanded="false" aria-controls="collapseObjectifsTwo">
+                            Ecouter, informer, conseiller
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseObjectifsTwo" class="collapse" aria-labelledby="headingObjectifsTwo" data-parent="#accordionExample3">
+                        <div class="card-body">
+                          Entretiens individuels, stages, ateliers, la Mission locale offre une série de services pour accompagner ceux qui le souhaitent au travers des différentes étapes qui mènent à l’emploi, qu’il s’agisse d’améliorer leur technique de recherche, de trouver une formation, de choisir une orientation professionnelle,...
+                          La Mission locale n’hésite pas à mettre ses compétences aux services de ses partenaires. Nous collaborons ainsi avec des centres de formation qui expriment le souhait d’ouvrir leur programme à un public plus large. Dans ce cas, nous prenons en charge la préparation d’une partie des candidats et assurons leur suivi pour éviter tout décrochage.
+                          Dans le cadre du plan communal pour l'emploi, deux Maisons de l'emploi ont été créées à Schaerbeek,l'une 36 rue Gallait et l'autre 46 rue de Jérusalem. C'est dans ce second bâtiment que la Mission locale est située. Cet espace abrite également différents organismes qui soutiennent les demandeurs d'emploi, dont, l'Agence locale pour l'emploi (Ale), Maxinet, Jeunes schaerbeekois au travail (Jst) et, depuis novembre 2008, une antenne d'Actiris et un Werkwinkelnoord. Un Epn (Espace publique numérique) est également disponible au personnes désirant avoir accès à l'Internet.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingObjectifsThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseObjectifsThree" aria-expanded="false" aria-controls="collapseObjectifsThree">
+                            Agir ensemble
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseObjectifsThree" class="collapse" aria-labelledby="headingObjectifsThree" data-parent="#accordionExample3">
+                        <div class="card-body">
+                          Les Missions locales de Saint-Josse et de Schaerbeek organisent des journées de réflexion thématique auxquelles sont conviés leurs partenaires.
+                          La Mission locale est associée au réseau des plates-formes locales pour l’emploi (Rpe) développé par Actiris. Concrètement, il s’agit d’une ouverture des bases de données d'Actiris qui permet aux opérateurs de l’insertion socioprofessionnelle d’assurer un meilleur suivi de leur public.
+                          Afin d’améliorer la diffusion d’informations vers le public, mais aussi vers les différents opérateurs présents sur sa zone d’influence, la Mission locale a mis en place un service de communication. Celui-ci met du personnel (accueil) et son savoir-faire (rédaction et graphisme) au service de ses partenaires.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingObjectifsFour">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseObjectifsFour" aria-expanded="false" aria-controls="collapseObjectifsFour">
+                            Encourager le développement local
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseObjectifsFour" class="collapse" aria-labelledby="headingObjectifsFour" data-parent="#accordionExample3">
+                        <div class="card-body">
+                          Créé sur l’initiative de la Mission locale et des échevinats de l'Intégration et de l’Emploi de Schaerbeek, Jst permet à des demandeurs d’emploi de suivre une formation en horticulture, menuiserie ou pavage en combinant la théorie avec une expérience sur le terrain. La plupart des chantiers sur lesquels l’asbl travaille lui sont confiés par la Commune dans le cadre des contrats de quartier.
+                          Bien que l’économie sociale soit un concept complexe, objet de définitions variées, les diverses visions qu’il recouvre se fondent sur des critères communs: la primauté du service à la collectivité et du bien-être des travailleurs sur le profit.
+                          Amenée, de par sa proximité avec le public, à rencontrer des personnes porteuses de projets en matière d’entreprises solidaires, la Mission locale a tissé des liens rapprochés avec iles, une asbl qui leur propose un appui administratif et logistique.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+            <!-- OBJECTIFS -->
+            <!-- QUI SOMMES-NOUS -->
+
+
+              <section id="quisommesnous">
+                <p>&nbsp;</p>
+                <h2>Qui sommes-nous?</h2>
+                <div class="accordion" id="accordionExample4">
+                  <div class="card">
+                    <div class="card-header" id="headingWhoOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseWhoOne" aria-expanded="true" aria-controls="collapseWhoOne">
+                          Histoire, subsides et Conseil d'administration
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div id="collapseWhoOne" class="collapse" aria-labelledby="headingWhoOne" data-parent="#accordionExample4">
+                      <div class="card-body">
+                        Comprendre notre histoire et le contexte dans lequel nous nous sommes développés permet de mieux cerner nos caractéristiques actuelles.
+                        Accueillir et soutenir les demandeurs d’emploi, organiser des formations, coordonner le parcours d’insertion, participer au développement local... Rien de tout cela ne serait possible sans les organismes qui nous soutiennent.
+                        Dès l’origine, la Mission locale devient un partenaire de premier plan de la Commune et assure un rôle de coordination du dispositif local d’insertion socioprofessionnelle, ce qui se traduit dans la composition de son Conseil d’administration.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingWhoTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseWhoTwo" aria-expanded="false" aria-controls="collapseWhoTwo">
+                          Un peu d'histoire
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseWhoTwo" class="collapse" aria-labelledby="headingWhoTwo" data-parent="#accordionExample4">
+                      <div class="card-body">
+                        Fondée en novembre 1990, la Mission locale de Schaerbeek a débuté ses activités de façon effective au cours du deuxième semestre 1991. Cette asbl a été mise en place sur l’initiative de certains acteurs locaux de l’insertion socioprofessionnelle pour répondre à l’évolution problématique de la situation sociale et économique dans la Commune (forte proportion de demandeurs d’emploi non inscrits parmi les jeunes, désinvestissement du secteur privé,...). A cette époque, de
+                        nombreux opérateurs d’insertion socioprofessionnelle présents sur le territoire manquaient d’un lieu de coordination et la création d’une Mission locale a répondu à ce besoin.
+                        Depuis 1994, la Commune reconnaît la Mission locale comme son partenaire. A partir de 1997, l’association s’est impliquée d’avantage dans la revitalisation urbaine, sociale et économique du quartier, devenant ainsi un véritable acteur du développement local. Aujourd’hui, la Mission locale et l’échevinat de l’économie et de l’emploi coordonnent le plan communal pour l’emploi.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingWhoThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseWhoThree" aria-expanded="false" aria-controls="collapseWhoThree">
+                          Le conseil d'administration
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseWhoThree" class="collapse" aria-labelledby="headingWhoThree" data-parent="#accordionExample4">
+                      <div class="card-body">
+                        Le Conseil d’administration détermine la politique générale de l’association et contrôle les comptes. Dès l’origine, la Mission locale et les pouvoirs publics locaux entretiennent un partenariat étroit. Le Conseil d’administration, présidé par l’échevin de l’emploi Etienne Noël, comprend des représentants de la Commune et du Cpas. Sa structure reflète également la volonté d’améliorer la coordination entre les opérateurs de l’insertion socioprofessionnelle, les centres de
+                        formations, les employeurs et autres acteurs du monde du travail. Parmi ses membres, on retrouve donc des personnes issues d’associations actives dans l’insertion socioprofessionnelle, d’institutions scolaires (Cefa et promotion sociale) et des partenaires sociaux (Ueb, entreprises, syndicats).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingWhoFour">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseWhoFour" aria-expanded="false" aria-controls="collapseWhoFour">
+                          Les organismes qui nous soutiennent
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseWhoFour" class="collapse" aria-labelledby="headingWhoFour" data-parent="#accordionExample4">
+                      <div class="card-body">
+                        Actiris subventionne la Mission locale suivent les principes définis dans l’arrêté de la Région Bruxelles Capitale du 27 juin 1991. Comme établi dans les deux conventions de partenariats qui découlent de ce texte, il supporte les activités d’insertion ainsi que de coordination du dispositif local. L’Office régional apporte également son aide via l’octroi de postes Acs et est partenaire du programme Jeep.
+                        La Cocof soutien les actions qui visent la formation, selon les conditions fixées par le Décret d’avril 1995. Bruxelles Formation indemnise les stagiaires de la Mission locale.
+                        La Commune de Schaerbeek apporte un soutien financier et fournit les locaux.
+                        Le Fonds social européen finance, dans le cadre de l’objectif 3, la mise en place de services d’orientation professionnelle.
+                        La Mission locale bénéficie d’une aide régionale dans le cadre des contrats de quartier.
+                        La Fédération Wallonie-Bruxelles participe au programme Jeep.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            <!-- QUI SOMMES-NOUS -->
+            <!-- CONTACT -->
+
+            <section id="contact">
+              <p>&nbsp;</p>
+              <h2>Contact</h2>
+              <form>
+                <p class="end-footer">Rue de Jérusalem, 46 - 1030 Bruxelles - tél.: 02/247.77.20 - fax: 02/245.42.52 - <a class="lien" href="secretariat@milocs.be" target="_blank">Secretariat</a></p>
+                <small id="infoHelp" class="form-text text-muted">Nous ne partagerons jamais aucune de vos données avec quelqu'un d'autre.</small>
+                <br>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Nom</label>
+                  <input type="text" class="form-control" id="exampleInputLastName1" aria-describedby="lastNameHelp" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Prénom</label>
+                  <input type="text" class="form-control" id="exampleInputFirstName1" aria-describedby="firstNameHelp" placeholder="Votre prénom">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Sujet</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option disabled selected>Choississez votre sujet.</option>
+                    <option>Formation</option>
+                    <option>Emploi</option>
+                    <option>Créer son activité</option>
+                    <option>Employeur</option>
+                    <option>Information</option>
+                    <option>Évènement</option>
+                    <option>Webmaster</option>
+                    <option>Autre</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Message</label>
+                  <textarea type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre message"></textarea>
+                </div>
+                <!-- <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div> -->
+                <button type="submit" class="btn btn-default"><i class="fas fa-check"></i> Envoyer</button>
+              </form>
+            </section>
+
+            <!-- CONTACT -->
+
+            <p>&nbsp;</p>
+          </div>
+          <p>&nbsp;</p>
+        </div>
+      </section>
+
+      <!-- MAIN -->
+      <!-- FOOTER -->
+
+        <section id="footer">
+          <footer class="fixed-bottom">
+            <div class="copyright">
+              <script type="text/javascript">
+                var date=new Date(),
+                year = date.getFullYear(),
+                text = "Copyright © " + year + " - Milocs",
+                html = '<div class="text-align-center">' + text + '</div>';
+
+                document.write(html);
+              </script>
+            </div>
+            <p class="end-footer">created by <a class="lien" href="https://github.com/Cedric-Fournier" target="_blank">Cedric Fournier</a> & <a class="lien" href="https://github.com/JFumba" target="_blank">Jesse Fumba</a></p>
+          </footer>
+        </section>
+
+      <!-- FOOTER -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="./Assets/js/app.js"></script>
+  </body>
+</html>
