@@ -1,4 +1,6 @@
-$(".nav .nav-link").on("click", function(){
-   $(".nav").find(".activ").removeClass("activ");
-   $(this).addClass("activ");
-});
+// Sercive Worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('service-worker.js')
+           .then(function() { console.log('Service Worker Registered'); });
+}
