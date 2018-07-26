@@ -3,17 +3,17 @@
 
 ## Contributors
  - [Jesse Fumba](https://github.com/JFumba/)
- - Cédric Fournier : https://github.com/Cedric-Fournier/
- - Daphné Haulin (pour sa participation au projet original) : https://github.com/haulindaphne/
+ - [Cédric Fournier](https://github.com/Cedric-Fournier/)
+ - [Daphné Haulin](https://github.com/haulindaphne/) - (pour sa participation au projet original)
 
-## Ce que c'est
+## Projet
 - Website for challenge 6-hour Team. Create a website for a fake client in 6 hour. (Refonte du projet original)
-- Milocs Mission Locale de Schaerbeek : https://www.milocs.be/
+- Layout - [Milocs Mission Locale de Schaerbeek](https://www.milocs.be/)
 
 ## Quand / Où
 Nous avons recommencer la refonte compléte du 18/06 au 28/06. Pendant notre formation à Becode. 
 
 ## Progression
-Terminer
+Terminé
 
 
