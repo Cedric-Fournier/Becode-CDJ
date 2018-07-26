@@ -1,8 +1,8 @@
 # 6-hour Team Challenge : GUERILLA STYLE (REFONTE)
 **One Pager**
 
-## Qui
- - Jesse Fumba : https://github.com/JFumba/
+## Contributors
+ - [Jesse Fumba](https://github.com/JFumba/)
  - Cédric Fournier : https://github.com/Cedric-Fournier/
  - Daphné Haulin (pour sa participation au projet original) : https://github.com/haulindaphne/
 
